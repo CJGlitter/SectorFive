@@ -1,5 +1,5 @@
 class Explosion
-  attr_reader :finished
+  attr_reader :finished, :x, :y, :radius
   def initialize(window, x, y)
     @x = x
     @y = y
